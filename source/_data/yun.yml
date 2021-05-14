@@ -166,7 +166,7 @@ footer:
     # icp: 苏ICP备xxxxxxxx号
 
   live_time:
-    enable: false
+    enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
     start_time: "2021-05-13T00:00:00"
@@ -209,15 +209,18 @@ aplayer:
       server: netease
       type: playlist
 
-
 comment:
   enable: true
   tips:
-    - 本站评论基于utterances(〃'▽'〃)
-  candidates:
-    - utterances:
+    - 这里是留言板，点进去就可以哦(〃'▽'〃)
+    
+github_issues:
       enable: true
-      repo: https://github.com/1v4n-poi/1v4n-poi.github.io
-      issue-term: pathname
-      label: 💬
-      theme: github-light
+      username: 1v4n-poi
+      repository: 1v4n-poi.github.io
+      filters: is:issue
+    
+github_discussions:
+      enable: true
+      username: 1v4n-poi
+      repository: 1v4n-poi.github.io
