@@ -212,15 +212,22 @@ aplayer:
 comment:
   enable: true
   tips:
-    - 这里是留言板，点进去就可以哦(〃'▽'〃)
+    - 本站留言板由utterances支持(〃'▽'〃)
     
 github_issues:
-      enable: true
-      username: 1v4n-poi
-      repository: 1v4n-poi.github.io
-      filters: is:issue
+  enable: false
+  username: 1v4n-poi
+  repository: 1v4n-poi.github.io
+  filters: is:issue
     
 github_discussions:
-      enable: true
-      username: 1v4n-poi
-      repository: 1v4n-poi.github.io
+  enable: false
+  username: 1v4n-poi
+  repository: 1v4n-poi.github.io
+
+utterances:
+  enable: true
+  repo: 1v4n-poi/1v4n-poi.github.io
+  issue-term: pathname
+  label: 💬
+  theme: github-light
