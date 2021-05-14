@@ -208,3 +208,16 @@ aplayer:
       id: 113848098
       server: netease
       type: playlist
+
+
+comment:
+  enable: true
+  tips:
+    - 本站评论基于utterances(〃'▽'〃)
+  candidates:
+    - utterances:
+      enable: true
+      repo: https://github.com/1v4n-poi/1v4n-poi.github.io
+      issue-term: pathname
+      label: 💬
+      theme: github-light
