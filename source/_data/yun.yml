@@ -1,0 +1,99 @@
+social:
+  #- name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+  #  link: /atom.xml # config.feed.path
+  #  icon: icon-rss-line
+  #  color: orange
+  #- name: QQ 群 1050458482
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+  #  link: https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi
+  #  icon: icon-qq-line
+  #  color: "#12B7F5"
+  #- name: GitHub
+  #  link: https://github.com/YunYouJun
+  #  icon: icon-github-line
+  #  color: "#6e5494"
+  #- name: 微博
+  #  link: https://weibo.com/jizhideyunyoujun
+  #  icon: icon-weibo-line
+  #  color: "#E6162D"
+  #- name: 豆瓣
+  #  link: https://www.douban.com/people/yunyoujun/
+  #  icon: icon-douban-line
+  #  color: "#007722"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=113848098
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: 知乎
+    link: https://www.zhihu.com/people/ivanxu-57-51
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/10917534
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  # - name: POPI
+  #   link: https://www.popiapp.cn/elpsycn
+  #   icon: icon-questionnaire-line
+  #   color: "#525252"
+  #- name: 微信公众号
+  #  link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+  #  icon: icon-wechat-2-line
+  #  color: "#1AAD19"
+  #- name: Twitter
+  #  link: https://twitter.com/YunYouJun
+  #  icon: icon-twitter-line
+  #  color: "#1da1f2"
+  # - name: Telegram
+  #   link: https://t.me/YunYouJun
+  #   icon: icon-telegram-line
+  #   color: "#0088CC"
+  #- name: Telegram Channel
+  #  link: https://t.me/elpsycn
+    # icon: icon-telegram-fill
+  #  icon: icon-telegram-line
+  #  color: "#0088CC"
+  - name: E-Mail
+    link: mailto:likexu97@gmail.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  #- name: Travelling
+  #  link: https://travellings.now.sh/
+  #  icon: icon-send-plane-2-line
+  #  color: black
+
+
+
+avatar:
+  enable: true
+  url: /yun.png
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 😊
+    message: 欢迎来到poi的地下仓库！
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+  custom:
+    title: Yun Manual
+    path: https://yun.yunyoujun.cn
+    icon: icon-settings-line
