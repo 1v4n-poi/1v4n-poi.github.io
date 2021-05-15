@@ -36,7 +36,9 @@ date: 2021-05-15 10:56:00
    	type: git
    	repository: git@github.com:用户名/用户名.github.io.git
    	branch: master
-其中repository简写为repo也没有问题，后面的链接根据你的网络情况可以选择使用ssh链接或者https的[github链接](!https://cdn.jsdelivr.net/gh/1v4n-poi/1v4n-poi.github.io@hexo/images/20210515/1.jpg)。branch默认为master，最好在github中设置当前repo的默认branch为master（我一开始就设置了，没有测试过不设置的情况，了解的小伙伴可以在评论区分享一下）。此外，在branch后面还可添加message命令，用以本次部署的简单说明。
+其中repository简写为repo也没有问题，后面的链接根据你的网络情况可以选择使用ssh链接或者https的github链接（下图）。branch默认为master，最好在github中设置当前repo的默认branch为master（我一开始就设置了，没有测试过不设置的情况，了解的小伙伴可以在评论区分享一下）。此外，在branch后面还可添加message命令，用以本次部署的简单说明。
+
+![github链接](https://cdn.jsdelivr.net/gh/1v4n-poi/1v4n-poi.github.io@hexo/images/20210515/1.jpg)
 
 ### 为什么blog本地调试正常，部署成功后网页显示404？
 
@@ -57,7 +59,7 @@ hexo clean后再hexo g -d（generate和deploy一起进行）试试。
     npm install --save hexo-admin
     hexo s
 
-之后就可以通过 http://localhost:4000/admin/ 进入管理页面了。随后在Pages分栏中创建about page，用markdown语法编辑内容就可以。
+之后就可以通过 http://localhost:4000/admin/ 进入管理页面了。随后在Pages分栏中创建about page，用markdown语法编辑内容就可以。之后也可以在这里编辑用于post的博文。
 
 ### 主页文章底端的链接显示不正常？
 
@@ -87,5 +89,3 @@ hexo clean后再hexo g -d（generate和deploy一起进行）试试。
 ### 关联远程仓库与建立源代码分支
 
 参考云游君大佬的[教程](https://www.yunyoujun.cn/share/how-to-build-your-site/)2.5小节。方便备份和多台电脑间操作。
-
-
