@@ -231,3 +231,6 @@ utterances:
   issue-term: pathname
   label: 💬
   theme: github-light
+
+wordcloud:
+  enable: true
