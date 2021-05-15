@@ -18,7 +18,7 @@ date: 2021-05-15 10:56:00
 
 ## 从零开始的参考资料
 
-本站部署Hexo时主要参考了知乎用户Crystal分享的[相关教程](https://zhuanlan.zhihu.com/p/60578464)，设置Hexo时主要参考了Hexo的官方中文[Manual](https://hexo.io/zh-cn/docs/)。Yun主题的相关部署与设置参考了[云游君](https://www.yunyoujun.cn/)大佬的Yun主题使用手册（链接是左边的小齿轮）。如果你喜欢本站，希望从零开始搭建的话可以参考这些链接，里面都有很详细的操作步骤。
+本站部署Hexo时主要参考了知乎用户Crystal分享的[相关教程](https://zhuanlan.zhihu.com/p/60578464)，设置Hexo时主要参考了Hexo的官方中文[Manual](https://hexo.io/zh-cn/docs/)。Yun主题的相关部署与设置参考了[云游君](https://www.yunyoujun.cn/)大佬的[Yun主题使用手册](https://yun.yunyoujun.cn/)。如果你喜欢本站，希望从零开始搭建的话可以参考这些链接，里面都有很详细的操作步骤。
 
 ## 小问题和解决方案
 
