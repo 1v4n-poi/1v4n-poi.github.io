@@ -234,3 +234,9 @@ utterances:
 
 wordcloud:
   enable: true
+
+pages:
+  - name: 男孩子
+    #url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
